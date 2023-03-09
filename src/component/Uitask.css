@@ -1,0 +1,167 @@
+
+::selection {
+  color: rgb(247, 84, 27);
+}
+
+header {
+  height: 10vh;
+  line-height: 10vh;
+}
+header .container {
+  padding-top: 15px;
+  background-image: url(../img/bg_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+}
+/* .logo{
+    background-color: black;
+}
+.logo img{
+    position: fixed; }*/
+
+
+.tagline {
+  color: white;
+  font-size: 4.3rem;
+  font-family: monospace;
+  padding: 10rem 0rem 0rem 10rem;
+  user-select: text;
+}
+.beyong {
+  color: rgb(249, 187, 78);
+}
+.aboutBtn {
+  margin-top: 16%;
+  margin-left: 10%;
+  width: 80%;
+  text-align: right;
+  /* height: 50px; */
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: fixed;
+
+}
+.material-symbols-outlined {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.material-symbols-outlined:hover {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  transition: 1s;
+}
+header ul li {
+  margin-left: 30px;
+  margin-top: 2.5rem;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: white;
+}
+header ul li a:hover {
+  color: rgb(247, 84, 27);
+}
+
+.open {
+  display: none;
+}
+.header ul {
+  padding-top: 30px;
+}
+.nav-links-mobile {
+  position: absolute;
+  display: block;
+  list-style: none;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+  /* width:99%; */
+  max-width: 100%;
+
+  height: 100vh;
+  background-color: black;
+  z-index: 999;
+}
+header ul li {
+  /* width: 95%; */
+  transition: all 0.5s ease-in-out;
+  text-transform: uppercase;
+  /* line-height: 70px; */
+}
+header .link {
+  display: none;
+}
+.close,
+.open {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  color: rgb(249, 187, 78);
+  display: block;
+  font-size: 25px;
+  z-index: 999;
+}
+.close {
+  right: 10%;
+}
+.close.home-btn {
+  background: transparent;
+  color: white;
+  border-radius: 50%;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+.close.home-btn:hover {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(249, 187, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  transition: 1s;
+}
+ul li:hover ~.cursor{
+  transform: scale(3);
+  color:white;
+  transition: 0.5s;
+}
+.cursor{
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  color: white;
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+/* about section start */
+/* .container_2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50%;
+} */
